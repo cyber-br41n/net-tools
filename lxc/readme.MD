@@ -3,6 +3,12 @@
 sudo chmod +x besu_setup.sh
 ./besu_setup.sh
 ```
+## Add besu to system path
+```
+nano .bashrc
+alias besu="/root/besu-24.1.1/bin/besu"
+source .bashrc
+```
 
 ## Fixing internet access
 
