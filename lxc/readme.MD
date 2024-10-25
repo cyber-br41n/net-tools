@@ -4,6 +4,7 @@ sudo chmod +x besu_setup.sh
 ./besu_setup.sh
 ```
 ## Add besu to system path
+Run on lxc containers:
 ```
 nano .bashrc
 alias besu="/root/besu-24.1.1/bin/besu"
